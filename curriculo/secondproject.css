@@ -1,0 +1,76 @@
+HTML {
+    background-color: #4682B4; 
+}
+
+    #texto-vermelho{
+    color: #FF0000;
+} 
+   
+body {
+          background-color: rgba(70, 30, 180, 0.08);
+          color: white;
+     }  
+            
+          p1 {
+               text-align: center;
+          }
+     
+     
+          .RIODOSULSC {
+               text-align: center;
+          }
+    
+     #GATO {
+          text-align: center;
+     }
+     
+    
+     .SOBREMIM {
+          text-align: center;
+     }
+
+     #PASTEL {
+          background: green;
+          width: 0 auto;
+          height: 0 auto;
+          margin: 50px;
+          padding: 25x;
+          text-align: center;
+          border-radius: 50px;
+
+     }
+     
+      
+     .CAPACIDADES {
+          text-align: center;
+     }
+     
+     
+     .EXPERIÊNCIAS {
+          text-align: center;
+     }
+     #foto {
+          text-align: center;
+     }
+     #imagem-foto {
+          text-align: center;
+          width: 75px;
+          height: 75px;
+          border-radius: 65px;
+     }
+     #imagem-vila {
+          text-align: center;
+     }
+.SORVETE {
+    max-width: 600px;
+    margin: 35px auto;
+
+    h2 {
+    background: green;
+    margin: 50px auto;
+    padding: 25px;
+    text-align: center;
+    border-radius: 50px;
+
+    
+} }
