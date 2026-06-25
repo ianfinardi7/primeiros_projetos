@@ -1,0 +1,11 @@
+@media (min-width: 600px) {
+    #lista {
+        display: none;
+    }
+}
+    
+@media (max-width: 600px) {
+    #tabela {
+        display: none;
+    }
+}
