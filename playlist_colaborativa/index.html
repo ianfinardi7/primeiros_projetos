@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <label for="musica">Nome: </label>
+    <input type="text" id="musica" placeholder="Digite o nome de uma música: ">
+    <label for="autor">Autor: </label>
+    <input type="text" id="autor"- placeholder="Digite o nome do autor: ">
+    <label for="duracao">Duração: </label>
+    <input type="text" id="duracao" placeholder="Digite a duração da música: ">
+    <label for="colaborador">Colaborador: </label>
+    <input type="text" id="colaborador" placeholder="Digite seu nome: ">
+    <label for="link">Link: </label>
+    <input type="text" id="link" placeholder="Coloque o link da música: ">    
+    <button id="btnSalvar">Salvar</button>
+    
+    
+    <div class="divisoria">
+        <div class="bloco">
+            <h1>Exportar JSON</h1>
+            <textarea id="exportar"></textarea>
+            <button id="btnExportar">Exportar</button>
+        </div>
+
+        <table border="1" style="display: none">
+            <thead id="cabeca">
+                <tr>
+                <td>Nome</td>
+                <td>Autor</td>
+                <td>Duração</td>
+                <td>Colaborador</td>
+                <td>Link</td>
+                </tr>
+            </thead> 
+            <tbody id="tabela">
+            </tbody>
+        </table> 
+
+        <div class="bloco">
+                <h1>Importar JSON</h1>
+                <textarea id="importar"></textarea>
+                <button id="btnImportar">Importar</button>
+        </div>
+    </div>
+
+
+    
+    <script src="https://code.jquery.com/jquery-4.0.0.min.js""></script>
+    <script src="script.js"></script>
+</body>
+</html>
